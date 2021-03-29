@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^api/$   ProductRestController.php?view=all [nc,qsa]
